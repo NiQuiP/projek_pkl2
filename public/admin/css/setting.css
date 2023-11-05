@@ -1,0 +1,221 @@
+.invalid-feedbak {
+    width: auto;
+    display: block;
+    position: absolute;
+    font-style: italic;
+}
+
+.invalid-feedbak h3 {
+    margin-top: 0px;
+    color: red;
+    font-size: 17px;
+}
+
+.wrapper-content-setting {
+    display: flex;
+    justify-content: space-around;
+    background: var(--background-color);
+    height: 100vh;
+    /* z-index: 1; */
+}
+
+.wrapper-content-setting .kontainer-profile {
+    display: flex;
+    height: 320px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.wrapper-content-setting .wrapper-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 90%;
+    height: 265px;
+}
+
+.wrapper-content-setting .wrapper-profile .profile-body {
+    background: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px 10px;
+    height: 200px;
+    width: 220px;
+}
+
+.wrapper-content-setting .wrapper-profile img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid;
+    border-radius: 100px;
+}
+
+.wrapper-content-setting .wrapper-identity-setting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105vh;
+    height: 75vh;
+}
+
+.wrapper-content-setting .wrapper-identity-setting form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 99%;
+    height: 85%;
+}
+
+form .identitas-setting {
+    z-index: 1;
+}
+
+form .identitas-setting label {
+    font-size: 20px;
+}
+
+form .identitas-setting input {
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 16px;
+    padding: 0px 5px;
+}
+
+form .identitas-setting input:focus {
+    outline: none;
+}
+
+form .identitas-setting select {
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+}
+
+form .identitas-setting select:focus {
+    outline: none;
+}
+
+form .identitas-settingInstansi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+form .identitas-settingInstansi .instansiAsal {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+form .identitas-settingInstansi .instansiAsal label {
+    font-size: 20px;
+}
+
+form .identitas-settingInstansi .instansiAsal input {
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    padding: 0px 5px;
+}
+
+form .identitas-settingInstansi .instansiNama {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    margin-left: 5px;
+}
+
+form .identitas-settingInstansi .instansiNama label {
+    font-size: 20px;
+}
+
+form .identitas-settingInstansi .instansiNama input {
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 16px;
+    padding: 0px 5px;
+    outline: none;
+}
+
+nav.close {
+    z-index: 2;
+}
+
+main.kontainer-content header.first {
+    z-index: 0;
+
+}
+
+.wrapper-identity-setting .button {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    background: white;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 576px) {
+    main.kontainer-content header.first {
+        top: 0px;
+        position: sticky;
+        z-index: 1;
+    }
+
+    .wrapper-content-setting {
+        z-index: 1;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(181deg, #00a2e9 90%, rgba(255, 255, 255, 0.63) 100%);
+    }
+
+    .wrapper-content-setting .kontainer-profile {
+        margin: 0;
+        height: 265px;
+    }
+
+    .wrapper-content-setting .wrapper-profile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper-content-setting .wrapper-profile img {
+        height: 140px;
+        width: 140px;
+    }
+
+    .wrapper-content-setting .wrapper-profile .profile-body {
+        height: 180px;
+        width: 195px;
+    }
+
+    .wrapper-content-setting .wrapper-identity-setting {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    form .identitas-setting {
+        margin-bottom: 20px;
+    }
+
+}

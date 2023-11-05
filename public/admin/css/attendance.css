@@ -1,0 +1,337 @@
+.wrapper-content-attendance {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--background-color);
+    height: 100%;
+    width: 100%;
+
+}
+
+.wrapper-content-attendance header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 60px;
+    width: 95%;
+    padding: 25px;
+    margin: 15px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+.wrapper-body-attendance {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    background: var(--background-color);
+}
+
+.wrapper-body-attendance .body-satu-attendance {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.wrapper-body-attendance .date {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    width: 90%;
+}
+
+.wrapper-body-attendance .date .text {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.wrapper-body-attendance .date .date-time {
+    height: 43px;
+    margin-top: 6px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper-body-attendance .date .date-time h3#current-time {
+    font-size: 17px;
+    font-weight: 900;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.wrapper-body-attendance .date .date-time h3#date-today {
+    display: flex;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.wrapper-body-attendance .body-dua-attendance {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 5px;
+    width: auto;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.body-dua-attendance .grid-satu-attendance {
+    display: flex;
+    height: 50%;
+}
+
+.body-dua-attendance .wrapper-image {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px;
+    margin: 15px;
+    width: 40%;
+    height: 80%;
+}
+
+.body-dua-attendance .wrapper-image .text {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.body-dua-attendance .wrapper-image .image {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+div.wrapper-attendance {
+    height: 220px;
+    width: 224px;
+}
+
+img.screenshot {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    position: relative;
+
+    border: 2px solid;
+}
+
+canvas {
+    display: none;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    height: 220px;
+    width: 300px;
+    /* padding-top: 5px; */
+    /* object-fit: cover; */
+}
+
+video {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    height: 220px;
+    width: 304px;
+    border: 2px solid;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.body-dua-attendance .image .imageWrapper {
+    /* height: 218px;
+  width: 254px; */
+    border: 2px solid black;
+    position: relative;
+}
+
+.body-dua-attendance .image .imageWrapper video {
+    height: 220px;
+    width: 224px;
+    /* object-fit: cover; */
+}
+
+.body-dua-attendance .wrapper-image button {
+    height: 60px;
+    width: 70px;
+    border-radius: 10%;
+    cursor: pointer;
+    background-color: #1e90ff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-dua-attendance .wrapper-image button i {
+    font-size: 30px;
+}
+
+nav.close {
+    z-index: 2;
+}
+
+main.kontainer-content header.first {
+    z-index: 0;
+}
+
+.body-dua-attendance .wrapper-maps {
+    position: relative;
+    height: 80%;
+    width: 65%;
+    border: 1px solid;
+    padding: 10px;
+    margin: 15px;
+    z-index: 1;
+}
+
+.body-dua-attendance .wrapper-maps #map {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.body-dua-attendance .grid-dua-attendance {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.grid-dua-attendance .wrapper-attendance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    width: 700px;
+    height: 350px;
+}
+
+.grid-dua-attendance .wrapper-attendance img {
+    position: absolute;
+    height: 222px;
+    width: 280px;
+    background-color: wheat;
+}
+
+.grid-dua-attendance .hasilWrapper {
+    padding: 10px;
+    height: 75%;
+    width: 45%;
+}
+
+.grid-dua-attendance .wrapper-attendance .kbWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.grid-dua-attendance .wrapper-attendance .kbWrapper .kordinatWrapper {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.grid-dua-attendance .wrapper-attendance .kbWrapper .kordinatWrapper div {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.grid-dua-attendance .wrapper-attendance .kbWrapper .kordinatWrapper .lat input {
+    position: relative;
+    right: -13px;
+}
+
+.grid-dua-attendance .wrapper-attendance .kbWrapper .kordinatWrapper .lat span {
+    left: 13px;
+    position: relative;
+}
+
+.grid-dua-attendance .wrapper-attendance .kbWrapper .kordinatWrapper input {
+    /* border: 1px solid; */
+    border-radius: 5px;
+    height: 35px;
+    font-size: 16px;
+    padding: 0px 5px;
+}
+
+.grid-dua-attendance .wrapper-attendance .kbWrapper .buttonWrapper {
+    display: flex;
+    justify-content: end;
+}
+
+.grid-dua-attendance .wrapper-attendance .kbWrapper .buttonWrapper input {
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: var(--background-color);
+}
+
+@media screen and (max-width: 576px) {
+
+
+    .body-dua-attendance .grid-satu-attendance {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+
+    }
+
+    .body-dua-attendance .grid-dua-attendance {
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid-dua-attendance .wrapper-attendance {
+        flex-direction: column;
+        height: 500px;
+        width: 90%;
+    }
+
+    .body-dua-attendance .wrapper-image {
+        width: 90%;
+        height: 280px;
+    }
+
+    .body-dua-attendance .wrapper-image .image {
+        width: auto;
+    }
+
+    .body-dua-attendance .wrapper-maps {
+        width: 90%;
+        height: 200px;
+    }
+
+    .grid-dua-attendance .wrapper-attendance .kbWrapper {
+        height: auto;
+        gap: 0;
+        justify-content: space-evenly;
+    }
+
+    .grid-dua-attendance .hasilWrapper {
+        height: 60%;
+        width: 100%;
+    }
+}
